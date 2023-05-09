@@ -1,0 +1,51 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:wght@500&display=swap');
+
+@media screen and (max-width: 1440px) {
+    *{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+    }
+
+   header{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#2C1338;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+   }
+
+   img{
+    padding-left: 135px;
+   }
+
+   .menu{
+    margin-right: 85px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+   }
+   
+   .menu a{
+    color: #FFF3ED;
+    text-decoration: none;
+    
+   }
+   .menu button{
+    background: #E57CD8;
+    color: #FFF3ED;
+    border-radius: 40px;
+    border: none;
+    padding: 10px 25px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+   }
+  
+}
+
