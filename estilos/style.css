@@ -48,8 +48,20 @@
    }
    /* até aqui é o menu */
 
- 
+  section.chamado{
+    background-color:#F5F5F5 ;
+    font-family: 'Poppins' ;
+    height: 733px;
+  }
+  .imagem{
+    display: flex;
+    justify-content: flex-end;
 
+  }
+  .imagem img{
+    margin-right: 135px;
+    
+  }
  
 }
 
