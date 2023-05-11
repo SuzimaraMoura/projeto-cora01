@@ -1,6 +1,8 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:wght@500&display=swap');
 
+/*Cores usadas: #FDF1EC ; */
+
 @media screen and (max-width: 1440px) {
     *{
      margin: 0px;
@@ -49,19 +51,41 @@
    /* até aqui é o menu */
 
   section.chamado{
-    background-color:#F5F5F5 ;
+    background-color:  #cd4f19 ;
     font-family: 'Poppins' ;
     height: 733px;
   }
-  .imagem{
-    display: flex;
-    justify-content: flex-end;
-
-  }
-  .imagem img{
-    margin-right: 135px;
+ 
+  .container{
+    
+  
+    
+    background-color: blue;
+    height: 733px;
     
   }
+
+  .container img{
+    
+   
+    position: static;
+    margin-right: 0px;
+    background-color: #E57CD8;
+  
+   
+  
+   
+   
+
+    
+   
+    
+    
+   
+    
+
+  }
+
  
 }
 
