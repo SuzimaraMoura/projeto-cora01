@@ -55,36 +55,51 @@
     font-family: 'Poppins' ;
     height: 733px;
   }
- 
   .container{
+    height: 100%;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+  .container h1{ 
+    width: 553px;
+    height: 176px;
+    font-weight: 700;
+    font-size: 81.2651px;
+    line-height: 110.2%;
+    color: #412A4C;
+    align-self: flex-start;
+    margin-left: 135px;
+    margin-top: 227px;
+  
+   
+   
+    
     
   
-    
-    background-color: blue;
-    height: 733px;
-    
   }
-
+  .container p{
+    width: 467px;
+    height: 91px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150.02%;
+   
+  
+   
+   
+  }
   .container img{
     
    
-    position: static;
-    margin-right: 0px;
-    background-color: #E57CD8;
-  
-   
-  
-   
-   
-
-    
-   
-    
-    
-   
-    
-
   }
+  
+
+ 
+  
+
 
  
 }
