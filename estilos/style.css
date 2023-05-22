@@ -5,17 +5,17 @@
 
 
     *{
-     margin: 0px;
-     padding: 0px;
-     box-sizing: border-box;
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
     }
-    body{
+
+   body{
       width: 100vw;
       height: 100vh;
     }
 
    header{
-    height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,22 +26,33 @@
     font-size: 16px;
    }
 
-   img{
-    padding-left: 135px;
+   .contai{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 95%;
+    max-width: 100%;
+    margin: auto;
+   }
+
+   .logo{
+    width: 100%;
+    margin-left: 70px; 
    }
 
    .menu{
-    margin-right: 85px;
     display: flex;
     align-items: center;
     gap: 50px;
+    width: 400px;
    }
    
    .menu a{
+    padding: 24.5px 0px;
     color: #FFF3ED;
     text-decoration: none;
-    
    }
+
    .menu button{
     background: #E57CD8;
     color: #FFF3ED;
@@ -54,7 +65,43 @@
    }
    /* até aqui é o menu */
 
+  .chamado h1{
+    width: 553px;
+    height: 176px;
+    margin-top: 157px;       
+    margin-left: 135px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 81.2651px;
+    line-height: 110.2%;
+    color: #412A4C;
+  }
 
+  .chamado p{
+    width: 467px;
+    height: 91px;
+    margin-left: 135px;
+    margin-top: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #3A506B;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container img{
+    margin-right: 0px;
+    width: 628.14px;
+    height:501px;
+    border-radius: 12.2686px; 
+  }
   
 
  
